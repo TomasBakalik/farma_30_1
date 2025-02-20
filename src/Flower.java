@@ -15,4 +15,8 @@ public abstract class Flower {
                 '}';
     }
 
+    public void zavlazovat() {
+        this.chanceOfGrowth += 10;
+    }
+
 }
